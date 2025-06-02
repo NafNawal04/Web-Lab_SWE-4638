@@ -1,0 +1,160 @@
+main {
+    background-image: url('./Images/Layer-759_02.jpg'); 
+    background-size: auto;
+    background-position: center;
+    height: 500px;
+    padding: 2rem 0;
+    text-align: center;
+    position: relative;
+}
+
+
+nav {
+    background: rgba(2, 1, 1, 0.6);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    display: inline-block;
+    justify-content: center;
+    list-style-type: none;
+    background-color: rgb(29, 154, 154);
+    padding: 15px 0;
+    margin: 0;
+}
+
+.navbar li {
+    margin: 0 15px;
+    display: inline-block;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.video-slider {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.slider-content {
+    text-align: center;
+    color: white;
+    
+}
+
+.slider-content h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.slider-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.industries {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.industries h1 {
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.industry-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 0 50px;
+}
+
+.industry-item {
+    background: #f9f9f9;
+    padding: 20px;
+    text-align: left;
+}
+
+.cta {
+    background-image: url('./Images/steel-bg.jpg');
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #2e270e;
+    max-height:100px;
+}
+
+.cta span{
+    font-weight: bold;
+    font-size: 20px;
+    color: #ecbe1a;
+}
+
+.why-choose {
+    background-image: url('./Images/background-choose-us.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.choose-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.choose-box {
+    background: rgba(0, 0, 0, 0.5);
+    border-color: #ecbe1a;
+    border-width: 2px;
+    padding: 20px;
+    width: 250px;
+}
+
+
+.logo-row {
+    margin-top: 20px;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    height: 40px;
+}
+
+.logo-row img {
+    height: 30px;
+    margin: 0 10px;
+}
+
+
+footer {
+    background: #111;
+    color: white;
+    padding: 40px 20px;
+    justify-content: flex-start;
+}
+
